@@ -1,0 +1,157 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+}
+
+:root {
+    --bgSite: #f6f6f6;
+    --bgCard: #ebe9ea;
+    --white: #fff;
+    --title: #181818;
+    --text: #474747;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+header .header-gray {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--title);
+    color: var(--bgSite);
+    line-height: 50px;
+    text-align: center;
+    font-weight: 500;
+}
+
+header .header-white {
+    width: 100vw;
+    height: 50px;
+    background-color: var(--bgCard);
+    color: var(--title);
+    line-height: 50px;
+    text-align: center;
+    font-weight: 600;
+}
+
+section .top{
+    max-width: 1300px;
+}
+
+.top-main-texto {
+    position: absolute;
+    max-width: 370px;
+    top: 20em;
+    left: 5em;
+}
+
+.top-img {
+    background-image: url(img/wallpaper2.jpg);
+    height: 400px;
+    background-attachment: fixed;
+    background-color: var(--title);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter: brightness(60%);
+
+}
+
+.top-titulo {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 30px;
+    color: var(--white);
+}
+
+.top-texto {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 180%;
+    color: var(--white);
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    /*margin: 0 25px;*/
+}
+
+.container-destaques {
+    margin: 100px auto;
+    width: 100vw;
+    text-align: center;
+
+}
+
+.container-destaques h1 {
+    color: var(--title);
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 196.19%;
+}
+
+.container-destaques p {
+    color: var(--text);
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 196.19%;
+}
+
+.mostruario {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1300px;
+
+}
+
+.mostrador {
+    background-color: var(--bgCard);
+    width: 300px;
+    height: 250px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mostrador:hover {
+    box-shadow: 5px 5px 5px #88888850;
+}
+
+.mostrador-tenis {
+    width: 250px;
+    height: 150px;
+}
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+footer {
+    margin-top: 100px;
+    background-color: var(--title);
+    color: var(--white);
+    width: 100vw;
+    height: 100px;
+    line-height: 100px;
+    text-align: center;
+}
+
+
+/* ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~ */
+
+
+@media (max-width: 400px) {
+    .top-main-texto {
+        position: absolute;
+        max-width: 370px;
+        top: 15em;
+        left: 2.5em;
+    }
+}

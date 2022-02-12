@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="reset.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@500;600;700&display=swap" rel="stylesheet">
+
+    <title>Desafio 2 - Jordan Shoes</title>
+</head>
+
+<body>
+    <header>
+        <div class="header-gray">
+            <p class="text-header-gray">
+                Ganhe 10% de desconto e frete gratis
+            </p>
+        </div>
+        <div class="header-white">
+            <p class="text-header-white">
+                JordanShoes
+            </p>
+        </div>
+    </header>
+
+    <section class="top">
+
+        <div class="top-img"></div>
+        <div class="top-main-texto">
+
+            <h1 class="top-titulo element">
+                A melhor loja de Jordan
+            </h1>
+
+            <p class="top-texto element2">
+                O Tenis Jordan é fruto de uma velha e forte parceria entre a Nike e o jogador Michael Jordan
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <main class="container">
+        <section class="container-destaques">
+            <h1>Destaques</h1>
+            <p>Frete grátis e chinelo de brinde é aqui, aproveite por tempo ilimitado</p>
+        </section>
+
+        <section class="mostruario">
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/1.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/2.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/3.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/4.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/5.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/6.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/7.png" alt="">
+            </div>
+
+            <div class="mostrador">
+                <img class="mostrador-tenis" src="img/8.png" alt="">
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; Todos os direitos reservados.</p>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <script>
+        var typed = new Typed('.element', {
+            strings: ["First sentence.", "A melhor loja de Jordan",],
+            typeSpeed: 30
+        });
+
+    </script>
+
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script>
+        const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.mostruario', { delay: 200 });
+        ScrollReveal().reveal('.mostrador', { delay: 400 });
+        ScrollReveal().reveal('.mostrador-tenis', { delay: 500 });
+    </script>
+
+</body>
+
+</html>
