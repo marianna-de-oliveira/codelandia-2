@@ -1,6 +1,6 @@
 # Desafio 2 - Codelandia, por Iuri Silva
 
-![image](https://user-images.githubusercontent.com/85260155/153732081-8f5f05b1-e720-4547-b7c5-379c3a4afd2a.png)
 
-![image](https://user-images.githubusercontent.com/85260155/153732109-b61f43b5-081b-45f9-a520-52779433d593.png)
+![Shop - Home](https://user-images.githubusercontent.com/85260155/153732140-2337a6a5-37a9-468b-9b25-30f03b43299a.png)
 
+![Shop - Home (Mobile)](https://user-images.githubusercontent.com/85260155/153732137-4f8ab5c6-f929-4610-8d3f-59b8ef0826fe.png)
