@@ -1,5 +1,6 @@
 # Desafio 2 - Codelandia, por Iuri Silva
 
+Modelo de loja simples, responsiva, utilizando HTML, CSS e JavaScript com ScrollReveal
 
 ![Shop - Home](https://user-images.githubusercontent.com/85260155/153732140-2337a6a5-37a9-468b-9b25-30f03b43299a.png)
 
